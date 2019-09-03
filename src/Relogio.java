@@ -45,6 +45,7 @@ public class Relogio {
         return anguloDaHora;
     }
 
+    // método que imprime o ângulo entre os ponteiros no console
     private static void mostrarAnguloRelogio(long angulo) {
         System.out.println("O ângulo entre os ponteiros é de " + angulo + "º");
     }
