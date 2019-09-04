@@ -18,8 +18,11 @@ public class Relogio {
 
         System.out.println("O horário atual é " + hora + ":" + minuto); // imprime no console o horário atual
 
-        long anguloHora = retornaAnguloDaHora(hora); // introduzindo o retorno do método retornaAnguloDaHora para a variável anguloHora
+        long anguloHora = retornaAnguloDaHora(hora, minuto); // introduzindo o retorno do método retornaAnguloDaHora para a variável anguloHora
         long anguloMinuto = retornaAnguloDoMinuto(minuto); // introduzindo o retorno do método retornaAnguloDoMinuto para a variável anguloMinuto
+
+
+
 
         // utilizando o if para ver qual é o maior ângulo, e assim fazer a subtração entre eles corretamente, como resultado teremos o ângulo entre os ponteiros
         if(anguloHora > anguloMinuto){
@@ -39,12 +42,15 @@ public class Relogio {
     }
 
     // método que retorna o ângulo do ponteiro do minuto em relação ao 0 ou 12 do relógio
-    private static long retornaAnguloDaHora(int hora) {
+    private static long retornaAnguloDaHora(int hora, int minuto) {
         int anguloACadaHora = 30;
         long anguloDaHora = hora * anguloACadaHora;
+        // adiciona ao ângulo das horas o quanto o ponteiro mexeu (ângulação) nos minutos passados
+        anguloDaHora += minuto * 0.5;
         return anguloDaHora;
     }
 
+    // método que imprime o ângulo entre os ponteiros no console
     private static void mostrarAnguloRelogio(long angulo) {
         System.out.println("O ângulo entre os ponteiros é de " + angulo + "º");
     }
