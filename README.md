@@ -25,7 +25,3 @@ public long retornaAnguloRelogio(GregorianCalendar horario);
 ### 4. Não deverá ser utilizada qualquer biblioteca de terceiros para execução do projeto.
 
 ### 5. Caso tenhas alguma dúvida, tome a decisão que julgar ser a melhor e encaminhe junto com a solução do desafio dizendo qual era sua dúvida, qual foi a decisão tomada e defenda a posição tomada.
-<<<<<<< HEAD
-
-=======
->>>>>>> cb19c580b663140b81b7666be32ee3fe36bc9bda
