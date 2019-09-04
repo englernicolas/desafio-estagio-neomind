@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad41ce5c-cde7-441e-9a69-2a465657e82b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/desafio-estagio-neomind/Relogio.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/desafio-estagio-neomind/Relogio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Relogio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Relogio.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +82,7 @@
       <workItem from="1567460894944" duration="6267000" />
       <workItem from="1567482194850" duration="6591000" />
       <workItem from="1567526572651" duration="3933000" />
-      <workItem from="1567545769198" duration="2987000" />
+      <workItem from="1567545769198" duration="3425000" />
     </task>
     <servers />
   </component>
